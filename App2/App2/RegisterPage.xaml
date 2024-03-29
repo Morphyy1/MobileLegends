@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.RegisterPage"
+             BackgroundImageSource ="second.png">
+    <StackLayout>
+        <Image x:Name="logo" HeightRequest="200" WidthRequest="200" Margin="0, 110, 170, 0" />
+        <RelativeLayout>
+            <Grid>
+                <Frame Margin="-90,20, 0, 0" WidthRequest="425" HeightRequest="315" CornerRadius ="75" BorderColor="#211912" Padding="0 ,0 ,0 ,0" BackgroundColor="#D2D0CB">
+                    <StackLayout>
+                        <Entry Placeholder="Email" FontSize="25" Margin="100, 30 , 0, 0" />
+                        <BoxView BackgroundColor="#211912" HeightRequest="2" WidthRequest="150" Margin="0, 20" />
+                        <Entry Placeholder="User name" FontSize="25" Margin="100, -2, 0 ,0" />
+                        <BoxView BackgroundColor="#211912" HeightRequest="2" WidthRequest="150" Margin="0, 25 ,0 ,0" />
+                        <Entry Placeholder="Password" FontSize="25" Margin="100, 10 , 0, 0" IsPassword="True"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+            <Button x:Name="nextButton" ImageSource="nextButton.png" Margin="285, 140 ,0 ,0"/>
+            <Button HeightRequest="44" WidthRequest="193" Margin="-30, 380, 0 ,0" Text="Login" CornerRadius="20" BorderColor="#211912" BorderWidth="2" BackgroundColor="#746B58" TextColor="White" FontSize="20" Padding="-15, 0 ,0, 0"/>
+        </RelativeLayout>
+    </StackLayout>
+
+</ContentPage>

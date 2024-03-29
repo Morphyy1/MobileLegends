@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "V1PMU3Tdy4Rz+Vo+PAmFU1Dwe/z4NdJxMW2o85H00DCPC+bBeYG1oIJLXjI+ctvy7XDGVQoKlU3o8bO2zi/A3w==",
+  "success": true,
+  "projectFilePath": "D:\\VisualProject\\App2\\App2\\App2\\TimeTrack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lavri\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lavri\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lavri\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\lavri\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\lavri\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

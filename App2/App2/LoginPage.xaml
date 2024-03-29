@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Page1"
+             BackgroundImageSource="second.png">
+    <StackLayout>
+        <Image x:Name="logo" HeightRequest="200" WidthRequest="200" Margin="0, 110, 170, 0" />
+        <RelativeLayout>
+            <Grid>
+                <Frame Margin="-90, 40, 0, 0" WidthRequest="425" HeightRequest="220" CornerRadius ="75"  BorderColor="#211912" Padding="0 ,0 ,0 ,0" BackgroundColor="#D2D0CB">
+                    <StackLayout>
+                        <Entry Placeholder="User name" FontSize="25" Margin="100, 30 , 0, 0" />
+                        <BoxView BackgroundColor="#211912" HeightRequest="2" WidthRequest="150" Margin="0, 25" />
+                        <Entry Placeholder="Password" FontSize="25" Margin="100, -10 , 0, 0" IsPassword="True"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+            <Button x:Name="loginButton" Clicked="loginButton_Clicked" ImageSource="loginButton.png" Margin="260, 125 , 0 ,0"/>
+        </RelativeLayout>
+        <Button x:Name="registerButton" Clicked="registerButton_Clicked" ImageSource="registerButton.png" Margin="0, 0 ,300 ,150"/>
+    </StackLayout>
+</ContentPage>
