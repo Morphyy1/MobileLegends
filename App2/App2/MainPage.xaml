@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage"
+             BackgroundImageSource="main.png">
+    <StackLayout>
+        <ContentView>
+            <Image x:Name="logo" HeightRequest="300" WidthRequest="300" Margin="0,30, 20 ,0"/>
+        </ContentView>
+        <Label Text="Не упустите шанс улучшить производительность и эффективность с Time Track. Отслеживайте время и управляйте задачами легко!" FontSize="15" FontAttributes="Italic" TextColor="White" Margin="20, -105, 220, 0"  HorizontalTextAlignment="Start"/>
+        <ContentView>
+            <Button x:Name="buttonMain" Text="Продолжить" Clicked="buttonMain_Clicked" TextColor="White" FontAttributes="Bold" FontSize="40" Margin="0, 340, 0, 0"/>
+        </ContentView>
+    </StackLayout>
+</ContentPage>

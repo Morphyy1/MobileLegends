@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Page1"
+             BackgroundImageSource="singUp.png">
+    <StackLayout>
+        <Image x:Name="logo" HeightRequest="300" WidthRequest="300" Margin="-60, 50, 0, 0" />
+        <RelativeLayout>
+            <Grid>
+                <Frame Margin="-90, -10, 0, 0" WidthRequest="425" HeightRequest="220" CornerRadius ="75"  BorderColor="#1E222F" Padding="0 ,0 ,0 ,0" BackgroundColor="#C5BEBE">
+                    <StackLayout>
+                        <Entry Placeholder="User name" PlaceholderColor="Black" FontSize="25" Margin="100, 30 , 0, 0" />
+                        <BoxView BackgroundColor="#1E222F" HeightRequest="2" WidthRequest="150" Margin="0, 25" />
+                        <Entry Placeholder="Password" PlaceholderColor="Black" FontSize="25" Margin="100, -10 , 0, 0" IsPassword="True"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+            <Button Clicked="loginButton_Clicked" ImageSource="arrow.png" HeightRequest="45" WidthRequest="100" CornerRadius="30" BackgroundColor="#562020" Margin="280, 85, 0, 0" BorderColor="#1E222F" BorderWidth="2"/>
+        </RelativeLayout>
+        <Button Clicked="registerButton_Clicked" HeightRequest="44" WidthRequest="193" Margin="-180, 0, 250 ,160" Text="Register" FontAttributes="Italic" CornerRadius="20" BorderColor="#211912" BorderWidth="2" BackgroundColor="#45464D" TextColor="White" FontSize="17" Padding="160, 0 ,0, 0"/>
+    </StackLayout>
+</ContentPage>
