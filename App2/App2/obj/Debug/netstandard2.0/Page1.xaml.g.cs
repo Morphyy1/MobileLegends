@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App2.Page1.xaml", "Page1.xaml", typeof(global::App2.Page1))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TimeTrack.Page1.xaml", "Page1.xaml", typeof(global::TimeTrack.Page1))]
 
-namespace App2 {
+namespace TimeTrack {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Page1.xaml")]

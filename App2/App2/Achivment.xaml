@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homePage.png"
+             x:Class="TimeTrack.Achivment">
+    <StackLayout>
+        <Button x:Name="exitButton" Clicked="ExitClicked" ImageSource="backLogo.png" HeightRequest="50" CornerRadius="50" Margin="10, 10, 330 ,0" BackgroundColor="#45464D" BorderWidth="2" BorderColor="#1E222F"/>
+        <Label Text="Достижения" TextColor="#45464D" FontSize="40" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+        <Frame Margin="25, 30 ,25 , 0" CornerRadius="20" Padding="0, 0, 0, 0" BackgroundColor="#C5BEBE" BorderColor="#1E222F">
+            <BoxView BackgroundColor="#562020" CornerRadius="20" Margin="0, 0 , 260 ,0"/>
+        </Frame>
+        <ScrollView Margin="0, 20, 0, 5">
+            <StackLayout>
+                <FlexLayout Direction="Row" Margin="0,5">
+                    <Frame BackgroundColor="#C5BEBE" BorderColor="#1E222F" CornerRadius="10" WidthRequest="165" HeightRequest="150" Margin="25, 0">
+                        <Label Text="Пусто" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    </Frame>
+                    <Frame BackgroundColor="#C5BEBE" BorderColor="#1E222F" CornerRadius="10" WidthRequest="165" HeightRequest="150" Margin="0, 0, 25, 0">
+                        <Label Text="Пусто" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    </Frame>
+                </FlexLayout>
+                <FlexLayout Direction="Row" Margin="0, -25">
+                    <Frame BackgroundColor="#C5BEBE" BorderColor="#1E222F" CornerRadius="10" WidthRequest="165" HeightRequest="150" Margin="25, 0">
+                        <Label Text="Пусто" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    </Frame>
+                    <Frame BackgroundColor="#C5BEBE" BorderColor="#1E222F" CornerRadius="10" WidthRequest="165" HeightRequest="150" Margin="0, 0, 25, 0">
+                        <Label Text="Пусто" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    </Frame>
+                </FlexLayout>
+                <FlexLayout Direction="Row" Margin="0, 5">
+                    <Frame BackgroundColor="#C5BEBE" BorderColor="#1E222F" CornerRadius="10" WidthRequest="165" HeightRequest="150" Margin="25, 0">
+                        <Label Text="Пусто" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    </Frame>
+                    <Frame BackgroundColor="#C5BEBE" BorderColor="#1E222F" CornerRadius="10" WidthRequest="165" HeightRequest="150" Margin="0, 0, 25, 0">
+                        <Label Text="Пусто" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    </Frame>
+                </FlexLayout>
+                <FlexLayout Direction="Row" Margin="0, -25">
+                    <Frame BackgroundColor="#C5BEBE" BorderColor="#1E222F" CornerRadius="10" WidthRequest="165" HeightRequest="150" Margin="25, 0">
+                        <Label Text="Пусто" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    </Frame>
+                    <Frame BackgroundColor="#C5BEBE" BorderColor="#1E222F" CornerRadius="10" WidthRequest="165" HeightRequest="150" Margin="0, 0, 25, 0">
+                        <Label Text="Пусто" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    </Frame>
+                </FlexLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

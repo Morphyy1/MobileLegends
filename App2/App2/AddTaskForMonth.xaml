@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#766B73"
+             x:Class="TimeTrack.AddTaskForMonth">
+    <StackLayout>
+        <Button x:Name="backbutton" Clicked="backbutton_Clicked" ImageSource="backLogo.png" HeightRequest="50" CornerRadius="50" Margin="20, 20, 320 ,0" BackgroundColor="#45464D" BorderWidth="2" BorderColor="#1E222F"/>
+        <Frame BackgroundColor="#D9D9D9" CornerRadius="20" BorderColor="#45464D" Margin="20, 30, 20, 0">
+            <StackLayout>
+                <Frame BackgroundColor="#766B73" CornerRadius="40" HeightRequest="1" Margin="0, 0, 100, 0">
+                    <Entry Placeholder="Введите название задачи" TextColor="White" PlaceholderColor="White" FontAttributes="Bold" FontSize="13" Margin="0,-100"/>
+                </Frame>
+                <Entry Placeholder="Добавте описание" Margin="5, 10, 0, 100"/>
+            </StackLayout>
+        </Frame>
+        <Button x:Name="acceptButton1" Clicked="acceptButton1_Clicked" BackgroundColor="#D9D9D9" Text="Срочно, Важно" BorderColor="#45464D" BorderWidth="2" Margin="20, 50, 210, 0" HeightRequest="140" CornerRadius="20"/>
+        <Button x:Name="acceptButton2" Clicked="acceptButton2_Clicked" BackgroundColor="#D9D9D9" Text="Несрочно, Важно" BorderColor="#45464D" BorderWidth="2" Margin="210, -144, 20, 0" HeightRequest="140" CornerRadius="20"/>
+        <Button x:Name="acceptButton3" Clicked="acceptButton3_Clicked" BackgroundColor="#D9D9D9" Text="Срочно, Неважно" BorderColor="#45464D" BorderWidth="2" Margin="20, 4, 210, 0" HeightRequest="120" CornerRadius="20"/>
+        <Button x:Name="acceptButton4" Clicked="acceptButton4_Clicked" BackgroundColor="#D9D9D9" Text="Несрочно, Важно" BorderColor="#45464D" BorderWidth="2" Margin="210, -125, 20, 0" HeightRequest="120" CornerRadius="20"/>
+        <Button BackgroundColor="#D9D9D9" BorderColor="#45464D" BorderWidth="2" HeightRequest="80" CornerRadius="80" Margin="155, 15, 155, 0" ImageSource="accept3.png"/>
+    </StackLayout>
+</ContentPage>

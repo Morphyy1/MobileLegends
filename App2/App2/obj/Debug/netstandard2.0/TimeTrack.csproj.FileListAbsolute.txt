@@ -34,3 +34,12 @@ C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstanda
 C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\TimeTrack.dll
 C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\refint\TimeTrack.dll
 C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\TimeTrack.pdb
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\TimeTrack.sourcelink.json
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\Achivment.xaml.g.cs
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\SetDay.xaml.g.cs
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\SetMonth.xaml.g.cs
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\SetWeek.xaml.g.cs
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\AddTaskForDay.xaml.g.cs
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\AddTaskForMonth.xaml.g.cs
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\AddTaskForWeek.xaml.g.cs
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2\obj\Debug\netstandard2.0\Settings.xaml.g.cs

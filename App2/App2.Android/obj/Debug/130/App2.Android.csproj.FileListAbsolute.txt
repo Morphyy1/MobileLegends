@@ -1283,3 +1283,15 @@ C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\1
 C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\singup.png
 C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\arrow.png
 C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\accept.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\homepage.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\exit.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\accountlogo.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\settingslogo.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\backlogo.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\addlogo.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\daypage.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\monthpage.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\weekpage.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\accept1.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\accept2.png
+C:\MobileApplication\MobileLegends-TimeTacker-V1.0\App2\App2.Android\obj\Debug\130\res\drawable\accept3.png

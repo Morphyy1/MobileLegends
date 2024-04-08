@@ -7,7 +7,7 @@
         <Image x:Name="logo" HeightRequest="300" WidthRequest="300" Margin="-60, 50, 0, 0" />
         <RelativeLayout>
             <Grid>
-                <Frame Margin="-90, -25, 0, 0" WidthRequest="425" HeightRequest="315" CornerRadius ="75" BorderColor="#211912" Padding="0 ,0 ,0 ,0" BackgroundColor="#D2D0CB">
+                <Frame Margin="-90, -25, 0, 0" WidthRequest="425" HeightRequest="315" CornerRadius ="75" BorderColor="#211912" Padding="0 ,0 ,0 ,0" BackgroundColor="#C5BEBE">
                     <StackLayout>
                         <Entry Placeholder="Email" PlaceholderColor="Black" FontSize="25" Margin="100, 30 , 0, 0" />
                         <BoxView BackgroundColor="#211912" HeightRequest="2" WidthRequest="150" Margin="0, 20" />

@@ -1,12 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homePage.png"
              x:Class="App2.DaysPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+
+    <StackLayout>
+            <Button x:Name="settingButton" Clicked="settingButton_Clicked" ImageSource="settingsLogo.png" HeightRequest="50" CornerRadius="50" Margin="255, 20, 85 ,0" BackgroundColor="#45464D" BorderWidth="2" BorderColor="#1E222F"/>
+            <Button x:Name="accountButton" Clicked="accountButton_Clicked" ImageSource="accountLogo.png" HeightRequest="50" CornerRadius="50" Margin="320, -55, 20 ,0" BackgroundColor="#45464D" BorderWidth="2" BorderColor="#1E222F"/>
+            <Label Text="Планируйте своё время" FontSize="38" TextColor="#562020" Margin="49,35,0,0" FontAttributes="Bold"></Label>
+            <Label Text="правильно" FontSize="38" TextColor="White" Margin="100,20,0,0" FontAttributes="Bold"></Label>
+            <Button x:Name="SetDay" BorderColor="#1E222F" Margin="0,80,0,0" BorderWidth="2" BackgroundColor="#D2D0CB" Text="День"   HorizontalOptions="CenterAndExpand" CornerRadius="20" WidthRequest="290" HeightRequest="80" Clicked="SetDayPlane" TextColor="#1E222F" FontAttributes="Bold" FontSize="30"/>
+            <Button x:Name="SetWeek" BorderColor="#1E222F" Margin="0,40,0,0" BorderWidth="2" BackgroundColor="#D2D0CB" Text="Неделя"   HorizontalOptions="CenterAndExpand" CornerRadius="20" WidthRequest="290" HeightRequest="80" Clicked="SetWeekPlane" TextColor="#1E222F" FontAttributes="Bold" FontSize="30"/>
+            <Button x:Name="SetMonth" BorderColor="#1E222F" Margin="0,40,0,0" BorderWidth="2" BackgroundColor="#D2D0CB" Text="Месяц"   HorizontalOptions="CenterAndExpand" CornerRadius="20" WidthRequest="290" HeightRequest="80" Clicked="SetMonthPlane" TextColor="#1E222F" FontAttributes="Bold" FontSize="30"/>
+    </StackLayout>
 </ContentPage>

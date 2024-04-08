@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="dayPage.png"
+             x:Class="TimeTrack.SetDay">
+    <StackLayout>
+        <Button x:Name="backbutton" Clicked="backbutton_Clicked" ImageSource="backLogo.png" HeightRequest="50" CornerRadius="50" Margin="20, 20, 320 ,0" BackgroundColor="#45464D" BorderWidth="2" BorderColor="#1E222F"/>
+        <Button x:Name="accountbutton" Clicked="accountbutton_Clicked" ImageSource="accountLogo.png" HeightRequest="50" CornerRadius="50" Margin="320, -55, 20 ,0" BackgroundColor="#45464D" BorderWidth="2" BorderColor="#1E222F"/>
+        <Frame Margin="25, 30 ,25 , 0" CornerRadius="20" Padding="0, 0, 0, 0" BackgroundColor="#C5BEBE" BorderColor="#562020">
+            <BoxView BackgroundColor="#562020" CornerRadius="20" Margin="0, 0 , 260 ,0"/>
+        </Frame>
+        <Frame BackgroundColor="#C5BEBE" CornerRadius="20" BorderColor="#562020" Margin="20, 20, 20, 0">
+            <StackLayout>
+                <Frame BackgroundColor="#562020" CornerRadius="40" HeightRequest="1" Margin="0, 0, 220, 0">
+                    <Label Text="Важно" TextColor="White" FontAttributes="Bold" FontSize="17" Margin="0,-12"/>
+                </Frame>
+                <BoxView BackgroundColor="Gray" CornerRadius="10" HeightRequest="15" Margin="0, 5"/>
+                <BoxView BackgroundColor="Gray" CornerRadius="10" HeightRequest="15" Margin="0, 5"/>
+                <BoxView BackgroundColor="Gray" CornerRadius="10" HeightRequest="15" Margin="0, 5"/>
+            </StackLayout>
+        </Frame>
+        <Label Text="Задачи на день" TextColor="White" FontSize="30" FontAttributes="Bold" Margin="20, 10"/>
+        <Button x:Name="AddTaskButton" Clicked="AddTaskButton_Clicked" ImageSource="addLogo.png" HeightRequest="50" CornerRadius="50" Margin="320, -60, 20, 0" BackgroundColor="#45464D" BorderWidth="2" BorderColor="#1E222F"/>
+        <ScrollView Margin="20, 20, 20, 0">
+            <Label Text="Пока пусто :(" TextColor="Gray" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0, 100, 0, 0"/>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

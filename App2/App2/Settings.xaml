@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homePage.png"
+             x:Class="TimeTrack.Settings">
+    <StackLayout>
+        <Button x:Name="backbutton" Clicked="backbutton_Clicked" ImageSource="backLogo.png" HeightRequest="50" CornerRadius="50" Margin="20, 20, 320 ,0" BackgroundColor="#45464D" BorderWidth="2" BorderColor="#1E222F"/>
+        <Label Text="Найстройки" FontSize="40" TextColor="#45464D" Margin="75,20,0,0" FontAttributes="Bold"></Label>
+        <Button BorderColor="Black" Margin="0,40,0,0" BorderWidth="2" BackgroundColor="#D2D0CB" Text=""  HorizontalOptions="CenterAndExpand" CornerRadius="20" WidthRequest="310" HeightRequest="80"  TextColor="Black" FontAttributes="Bold" FontSize="30"/>
+        <Button BorderColor="Black" Margin="0,10,0,0" BorderWidth="2" BackgroundColor="#D2D0CB" Text=""  HorizontalOptions="CenterAndExpand" CornerRadius="20" WidthRequest="310" HeightRequest="80"  TextColor="Black" FontAttributes="Bold" FontSize="30"/>
+        <Button BorderColor="Black" Margin="0,10,0,0" BorderWidth="2" BackgroundColor="#D2D0CB" Text=""  HorizontalOptions="CenterAndExpand" CornerRadius="20" WidthRequest="310" HeightRequest="80"  TextColor="Black" FontAttributes="Bold" FontSize="30"/>
+        <Button BorderColor="Black" Margin="0,10,0,0" BorderWidth="2" BackgroundColor="#D2D0CB" Text=""  HorizontalOptions="CenterAndExpand" CornerRadius="20" WidthRequest="310" HeightRequest="80"  TextColor="Black" FontAttributes="Bold" FontSize="30"/>
+        <Button BorderColor="Black" Margin="0,10,0,0" BorderWidth="2" BackgroundColor="#D2D0CB" Text=""  HorizontalOptions="CenterAndExpand" CornerRadius="20" WidthRequest="310" HeightRequest="80"  TextColor="Black" FontAttributes="Bold" FontSize="30"/>
+        <Button BorderColor="Black" Margin="0,10,0,0" BorderWidth="2" BackgroundColor="#D2D0CB" Text=""  HorizontalOptions="CenterAndExpand" CornerRadius="20" WidthRequest="310" HeightRequest="80"  TextColor="Black" FontAttributes="Bold" FontSize="30"/>
+    </StackLayout>
+</ContentPage>
