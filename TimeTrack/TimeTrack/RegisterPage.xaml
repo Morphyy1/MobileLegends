@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="registerPage.png"
+             x:Class="TimeTrack.RegisterPage">
+    <StackLayout>
+        <Entry x:Name="nameInput" Placeholder="Имя пользователя" FontAttributes="Bold" Margin="40, 300, 40, 0" PlaceholderColor="White" TextColor="White" MaxLength="25"/>
+        <Entry x:Name="emailInput" Placeholder="Email" FontAttributes="Bold" Margin="40, 20, 40, 0" PlaceholderColor="White" TextColor="White" MaxLength="25"/>
+        <Entry x:Name="passworInput" Placeholder="Пароль" FontAttributes="Bold" Margin="40, 20, 40, 0" PlaceholderColor="White" TextColor="White" MaxLength="30" IsPassword="True"/>
+        <Button x:Name="createAccountButton" Clicked="createAccountButton_Clicked" BackgroundColor="#6A95E3" HeightRequest="60" CornerRadius="50" Margin="100, 50, 100, 0" Text="Создать аккаунт" TextColor="White" FontAttributes="Bold"/>
+        <Button x:Name="backLoginButton" Clicked="backLoginButton_Clicked" Text="Войти" HeightRequest="50" FontSize="9" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="#6A95E3" FontAttributes="Bold"/>
+    </StackLayout>
+</ContentPage>  

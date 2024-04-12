@@ -1,0 +1,17 @@
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\bin\Debug\netstandard2.0\TimeTrack.deps.json
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\bin\Debug\netstandard2.0\TimeTrack.dll
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\bin\Debug\netstandard2.0\ref\TimeTrack.dll
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\bin\Debug\netstandard2.0\TimeTrack.pdb
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\TimeTrack.csproj.AssemblyReference.cache
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\TimeTrack.GeneratedMSBuildEditorConfig.editorconfig
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\TimeTrack.AssemblyInfoInputs.cache
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\TimeTrack.AssemblyInfo.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\TimeTrack.csproj.CoreCompileInputs.cache
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\XamlC.stamp
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\TimeTrack.dll
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\refint\TimeTrack.dll
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\TimeTrack.pdb
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
