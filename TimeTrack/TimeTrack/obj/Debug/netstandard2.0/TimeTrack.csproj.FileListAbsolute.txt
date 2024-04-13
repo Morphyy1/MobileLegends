@@ -15,3 +15,11 @@ C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\refi
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\TimeTrack.pdb
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\Possibilities.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\TimeTrack.sourcelink.json
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\PossibilitiesTask.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\PossibilitiesSystem.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\PossibilitiesHabits.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.0\ChoiceHabits.xaml.g.cs

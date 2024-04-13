@@ -17,7 +17,7 @@ namespace TimeTrack
 
         private async void moveNext_Clicked(object sender, EventArgs e)
         {
-            var login = new LoginPage();
+            var login = new Possibilities();
             NavigationPage.SetHasNavigationBar(login, false);
             await Navigation.PushAsync(login, true);
         }

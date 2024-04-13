@@ -4,7 +4,8 @@
              BackgroundImageSource="registerPage.png"
              x:Class="TimeTrack.LoginPage">
     <StackLayout>
-        <Entry Placeholder="Имя пользователя" FontAttributes="Bold" Margin="40, 300, 40, 0" PlaceholderColor="White" TextColor="White" MaxLength="25"/>
+        <BoxView Opacity="0.41" BackgroundColor="White" HeightRequest="325" Margin="15, 225, 15, 0" CornerRadius="30"/>
+        <Entry Placeholder="Имя пользователя" FontAttributes="Bold" Margin="40, -300, 40, 0" PlaceholderColor="White" TextColor="White" MaxLength="25"/>
         <Entry Placeholder="Пароль" FontAttributes="Bold" Margin="40, 20, 40, 0" PlaceholderColor="White" TextColor="White" MaxLength="30" IsPassword="True"/>
         <Button x:Name="loginButton" Clicked="loginButton_Clicked" BackgroundColor="#6A95E3" HeightRequest="60" CornerRadius="50" Margin="100, 50, 100, 0" Text="Войти" TextColor="White" FontAttributes="Bold"/>
         <Button x:Name="newAccountButton" Clicked="newAccountButton_Clicked" Text="Создайте аккаунт" HeightRequest="50" FontSize="9" HorizontalOptions="Center" BackgroundColor="Transparent"  TextColor="#6A95E3" FontAttributes="Bold"/>

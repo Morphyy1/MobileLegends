@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeTrack.ChoiceHabits">
+    <FlexLayout>
+        <Grid>
+            <Grid>
+                <Image Source="formsForProfile.png" Margin="-70, -550, -15, 0"/>
+                <Label Text="@Your name" TextColor="White" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0, 135"/>
+                <Button x:Name="accountButton" Clicked="accountButton_Clicked" ImageSource="accountBlack.png" Margin="50,170 ,230, 530" BackgroundColor="Transparent"/>
+                <Label Text="Профиль" TextColor="Black" Margin="78, 240, 0, 0"/>
+                <Button ImageSource="habitsPurple.png" Margin="210,170 ,50, 530" BackgroundColor="Transparent"/>
+                <Label Text="Привычки" TextColor="#FEB4CB" Margin="242, 240, 0, 0"/>
+                <Frame BackgroundColor="White" Margin="135, 15, 135, 670" CornerRadius="100">
+                    <Image Source="logo.png" Margin="-70, 0,-70 ,0"/>
+                </Frame>
+                <BoxView BackgroundColor="#FEB4CB" Margin="30, 320, 30, 170" CornerRadius="25" Opacity="0.25"/>
+    
+                <Button Margin="180, 680, -100, -100" CornerRadius="100" BackgroundColor="#FEB4CB"/>
+                <Button Clicked="BackClicked" Margin="-10, 680, 215, -20" Text="Назад" FontAttributes="Bold" BackgroundColor="Transparent" FontSize="20"/>
+                <Frame Margin="-10,300,10,190" BackgroundColor="Transparent">
+                    <Grid>
+                        <Button CornerRadius="100" BackgroundColor="White" BorderColor="#FEB4CB" BorderWidth="2" Margin="50, 30, 200, 140"/>
+                        <Button CornerRadius="100" BackgroundColor="White" BorderColor="#FEB4CB" BorderWidth="2" Margin="220, 30, 30, 140"/>
+                        <Button CornerRadius="100" BackgroundColor="White" BorderColor="#FEB4CB" BorderWidth="2" Margin="50, 180, 200, -10"/>
+                        <Button CornerRadius="100" BackgroundColor="White" BorderColor="#FEB4CB" BorderWidth="2" Margin="220, 180, 30, -10"/>
+                    </Grid> 
+                </Frame>
+            </Grid>
+            <Label Text="СОХРАНИТЬ" Margin="250, 739, 0, 0" FontSize="20" FontAttributes="Bold" TextColor="White"/>
+        </Grid>
+    </FlexLayout>
+</ContentPage>

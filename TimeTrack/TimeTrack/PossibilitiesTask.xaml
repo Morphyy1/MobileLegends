@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeTrack.PossibilitiesTask">
+    <StackLayout>
+        <Grid>
+            <Frame BackgroundColor="#83A3E5" HeightRequest="350" CornerRadius="60" Margin="0, 0, 0, -110" >
+                <StackLayout>
+                    <Label Text="Постановка задач" TextColor="#617297" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0, 290, 0, 0" />
+                    <Image Source="pict2.png" Margin="0, -60, -330, 0"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#6A95E3" HeightRequest="150" CornerRadius="60" Margin="0, -80, 0 ,0">
+                <StackLayout>
+                    <Label Text="Что умеет наше приложение?" TextColor="White" FontSize="35" FontAttributes="Bold" Margin="35, 150, 0, 0" />
+                    <Image Source="pict1.png" Margin="-70, -140, -70, 0"/>
+                </StackLayout>
+            </Frame>
+
+        </Grid>
+        
+        <FlexLayout Margin="0, 470, 0, 0">
+            <BoxView BackgroundColor="Gray" Margin="148, 0, 5, 0" HeightRequest="20" WidthRequest="20" CornerRadius="30"/>
+            <BoxView BackgroundColor="#6A95E3" Margin="0, 0, 5, 0" HeightRequest="20" WidthRequest="20" CornerRadius="30"/>
+            <BoxView BackgroundColor="Gray" Margin="0, 0, 5, 0" HeightRequest="20" WidthRequest="20" CornerRadius="30"/>
+            <BoxView BackgroundColor="Gray" HeightRequest="20" WidthRequest="20" CornerRadius="30"/>
+        </FlexLayout>
+        <Button x:Name="next" Clicked="next_Clicked" HeightRequest="70" Margin="300, -50, 10, 0" ImageSource="arrowBlue" BackgroundColor="Transparent"/>
+    </StackLayout>
+</ContentPage>

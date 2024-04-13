@@ -19,7 +19,9 @@ namespace TimeTrack
 
         private async void loginButton_Clicked(object sender, EventArgs e)
         {
-            
+            var home = new HomePage();
+            NavigationPage.SetHasNavigationBar(home, false);
+            await Navigation.PushAsync(home, true);
         }
 
         private async void newAccountButton_Clicked(object sender, EventArgs e)

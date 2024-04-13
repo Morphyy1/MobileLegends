@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homePage.png"
+             x:Class="TimeTrack.HomePage">
+    <StackLayout>
+        <Grid>
+            <StackLayout>
+                <Button x:Name="accountButton" Clicked="accountButton_Clicked" ImageSource="accountLogo.png" Margin="320, -10, 15, 0" HeightRequest="80" BackgroundColor="Transparent"/>
+            </StackLayout>
+            <Frame BackgroundColor="#FEB4CB" HeightRequest="700" Margin="0, 60, 0, 0" CornerRadius="30">
+                <FlexLayout>
+                    <Label Text="Трекер привычек" Margin="20, 0, 0, 0" WidthRequest="350" FontSize="25" FontAttributes="Bold" TextColor="White"/>
+                    <Button Clicked="habitButton_Clicked" ImageSource="plus.png" BackgroundColor="White" Opacity="0.8" Margin="-110, 60, 0, 0" HeightRequest="90" CornerRadius="50"/>
+                </FlexLayout>
+            </Frame>
+            <Frame BackgroundColor="White" HeightRequest="700" Margin="0, 260,0, -500" CornerRadius="50">
+                <Grid>
+                    <Label Text="Сегодня" TextColor="#8EDFED" FontSize="30" FontAttributes="Bold" Margin="20, -5, 0, 0"/>
+                    <Label x:Name="IsEmpty" Text="Заполни скорее" FontSize="25" HorizontalOptions="Center" FontAttributes="Bold" Margin="0, 200"/>
+                    <ScrollView Margin="0, 50, 0, 0" >
+                        <StackLayout>
+                            <!--<BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
+                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>-->
+                        </StackLayout>
+                    </ScrollView>
+                    <Button HeightRequest="50" Margin="305, 450, -5, 500" Opacity="0.8" CornerRadius="50" BackgroundColor="#8EDFED" ImageSource="addLogo.png"/>
+                </Grid>
+            </Frame>
+        </Grid>
+    </StackLayout>
+</ContentPage>
