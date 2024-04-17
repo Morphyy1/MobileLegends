@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "+XHxFlzOjveaK9mCwLPpnNjR3yOY7T27j8r2lRENlPQwh/KM5F+T08ivBGcDJTQtfNQ5GqjQ8lG5gqW8fvHrLQ==",
+  "dgSpecHash": "+3Si6dT12+YfAaBaafFmRBskiZKlmCSmgIL8RNitWydSeNtdm41lcuaab+OJNbGl+yu3bNt5dGQnsvH7Ov4lUw==",
   "success": true,
   "projectFilePath": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\TimeTrack.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"

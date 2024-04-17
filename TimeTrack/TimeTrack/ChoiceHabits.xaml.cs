@@ -21,14 +21,14 @@ namespace TimeTrack
         {
 			var account = new Profile();
 			NavigationPage.SetHasNavigationBar(account, false);
-			await Navigation.PushAsync(account, false);
+			await Navigation.PushAsync(account, true);
         }
 
-        private async void BackClicked(object sender, EventArgs e)
+        private async void backButton_Clicked(object sender, EventArgs e)
         {
             var back = new HomePage();
             NavigationPage.SetHasNavigationBar(back, false);
-            await Navigation.PushAsync(back, false);
+            await Navigation.PushAsync(back, true);
         }
     }
 }

@@ -7,10 +7,6 @@
             <Grid>
                 <Image Source="formsForProfile.png" Margin="-70, -550, -15, 0"/>
                 <Label Text="@Your name" TextColor="White" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0, 135"/>
-                <Button ImageSource="accountPurple.png" Margin="50,170 ,230, 530" BackgroundColor="Transparent"/>
-                <Label Text="Профиль" TextColor="#FEB4CB" Margin="78, 240, 0, 0"/>
-                <Button x:Name="habitButton" Clicked="habitButton_Clicked" ImageSource="habitsBlack.png" Margin="210,170 ,50, 530" BackgroundColor="Transparent"/>
-                <Label Text="Привычки" TextColor="Black" Margin="242, 240, 0, 0"/>
                 <Frame BackgroundColor="White" Margin="135, 15, 135, 670" CornerRadius="100">
                     <Image Source="logo.png" Margin="-70, 0,-70 ,0"/>
                 </Frame>

@@ -655,3 +655,16 @@ C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\dra
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\logo.png
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\habitspurple.png
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\accountblack.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\waterblance.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\charging.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\readbook.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\learning.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\drinkvitamins.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\wakeupearly.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\cleaning.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\next.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\back.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\running.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\steptracker.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\sliping.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\meditate.png
