@@ -668,3 +668,8 @@ C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\dra
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\steptracker.png
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\sliping.png
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\meditate.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\accountlogoprofile.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\mailprofile.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\passprofile.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\backprofile.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\singout.png

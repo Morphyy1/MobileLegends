@@ -17,13 +17,6 @@ namespace TimeTrack
 			InitializeComponent ();
 		}
 
-        private async void habitButton_Clicked(object sender, EventArgs e)
-        {
-			var habits = new ChoiceHabits();
-			NavigationPage.SetHasNavigationBar(habits, false);
-			await Navigation.PushAsync(habits, false);
-        }
-
         private async void BackClicked(object sender, EventArgs e)
         {
             var back = new HomePage();
