@@ -30,5 +30,12 @@ namespace TimeTrack
             NavigationPage.SetHasNavigationBar(habits, false);
             await Navigation.PushAsync(habits, true);
         }
+
+        private async void addButton_Clicked(object sender, EventArgs e)
+        {
+            var add = new AddHabits();
+            NavigationPage.SetHasNavigationBar(add, false);
+            await Navigation.PushAsync(add, true);
+        }
     }
 }

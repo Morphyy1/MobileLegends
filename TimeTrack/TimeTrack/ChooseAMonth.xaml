@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homePage.png"
+             x:Class="TimeTrack.ChooseAMonth">
+    <StackLayout>
+        <Grid>
+            <StackLayout>
+                <Button x:Name="accountButton" Clicked="accountButton_Clicked" ImageSource="accountLogo.png" Margin="320, -10, 15, 0" HeightRequest="80" BackgroundColor="Transparent"/>
+            </StackLayout>
+            <Frame HeightRequest="900" Margin="0, 60, 0, -100" CornerRadius="30">
+                <StackLayout>
+                    <Button x:Name="backButton" Clicked="backButton_Clicked" ImageSource="back.png" Margin="-20,0,300,0" BackgroundColor="Transparent"/>
+                    <Button x:Name="weekButton" Text="Неделя" FontSize="20" Margin="60,-55, 190,0" BackgroundColor="Transparent" FontAttributes="Bold" TextColor="Gray"/>
+                    <Button Text="Месяц" FontSize="20" Margin="170,-54, 80,0" BackgroundColor="Transparent" FontAttributes="Bold" TextColor="#82A8DF"/>
+                    <Button x:Name="january" Text="Январь" Clicked="January_Clicked" Margin="0,50,200,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="february" Text="Февраль" Clicked="February_Clicked" Margin="200,-52,0,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="march" Text="Март" Clicked="march_Clicked" Margin="0,10,200,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="april" Text="Апрель" Clicked="april_Clicked" Margin="200,-52,0,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="may" Text="Май" Clicked="may_Clicked" Margin="0,10,200,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="june" Text="Июнь" Clicked="june_Clicked" Margin="200,-52,0,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="july" Text="Июль" Clicked="july_Clicked" Margin="0,10,200,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="august" Text="Август" Clicked="august_Clicked" Margin="200,-52,0,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="september" Text="Сентябрь" Clicked="september_Clicked" Margin="0,10,200,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="october" Text="Октябрь" Clicked="october_Clicked" Margin="200,-52,0,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="november" Text="Ноябрь" Clicked="november_Clicked" Margin="0,10,200,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                    <Button x:Name="december" Text="Декабрь" Clicked="december_Clicked" Margin="200,-52,0,0" TextColor="#82A8DF" FontAttributes="Bold" BackgroundColor="#EEEEEE" CornerRadius="30"/>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </StackLayout>
+</ContentPage>

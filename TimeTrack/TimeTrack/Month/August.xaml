@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homePage.png"
+             x:Class="TimeTrack.Month.August">
+    <StackLayout>
+        <Grid>
+            <StackLayout>
+                <Button x:Name="accountButton" Clicked="accountButton_Clicked" ImageSource="accountLogo.png" Margin="320, -10, 15, 0" HeightRequest="80" BackgroundColor="Transparent"/>
+            </StackLayout>
+            <Frame HeightRequest="900" Margin="0, 60, 0, -100" CornerRadius="30">
+                <StackLayout>
+                    <Button x:Name="backButton" Clicked="backButton_Clicked" ImageSource="back.png" Margin="-20,0,300,0" BackgroundColor="Transparent"/>
+                    <Button x:Name="weekButton" Clicked="weekButton_Clicked" Text="Неделя" FontSize="20" Margin="60,-55, 190,0" BackgroundColor="Transparent" FontAttributes="Bold" TextColor="Gray"/>
+                    <Button Text="Месяц" FontSize="20" Margin="170,-54, 80,0" BackgroundColor="Transparent" FontAttributes="Bold" TextColor="#82A8DF"/>
+                    <Button x:Name="ChooseAMonth" Clicked="ChooseAMonth_Clicked" Text="Выбрать месяц" Margin="0,10,200,0" TextColor="#EEEEEE" FontAttributes="Bold" BackgroundColor="#82A8DF" CornerRadius="30"/>
+                    <BoxView HeightRequest="45"  BackgroundColor="#EEEEEE" Margin="200,-52,0,0" CornerRadius="30"/>
+                    <Label Text="Август" Margin="235,-42,0,0" FontSize="20" FontAttributes="Bold" TextColor="#82A8DF"/>
+                    <StackLayout Orientation="Horizontal" Margin="0,40,0,0">
+                        <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="#FEB4CB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="#FEB4CB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="#FEB4CB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="#FEB4CB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="#FEB4CB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="#FEB4CB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="#FEB4CB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Label Text="пн" FontSize="20" TextColor="#9B6C7A" FontAttributes="Bold" Margin="-347, 7,0,0"/>
+                        <Label Text="вт" FontSize="20" TextColor="#9B6C7A" FontAttributes="Bold" Margin="23, 7,0,0"/>
+                        <Label Text="ср" FontSize="20" TextColor="#9B6C7A" FontAttributes="Bold" Margin="24, 7,0,0"/>
+                        <Label Text="чт" FontSize="20" TextColor="#9B6C7A" FontAttributes="Bold" Margin="24, 7,0,0"/>
+                        <Label Text="пт" FontSize="20" TextColor="#9B6C7A" FontAttributes="Bold" Margin="24, 7,0,0"/>
+                        <Label Text="сб" FontSize="20" TextColor="#9B6C7A" FontAttributes="Bold" Margin="23, 7,0,0"/>
+                        <Label Text="вс" FontSize="20" TextColor="#9B6C7A" FontAttributes="Bold" Margin="23, 7,0,0"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="-2,0">
+                        <Button HeightRequest="45" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="1" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="2" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="3" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="4" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="-2,0">
+                        <Button HeightRequest="45" Text="5" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="6" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="7" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="8" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="9" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="10" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="11" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="-2,0">
+                        <Button HeightRequest="45" Text="12" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="13" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="14" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="15" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="16" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="17" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="18" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="-2,0">
+                        <Button HeightRequest="45" Text="19" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="20" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="21" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="22" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="23" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="24" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="25" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="-2,0">
+                        <Button HeightRequest="45" Text="26" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="27" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="28" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="29" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="30" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" Text="31" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button HeightRequest="45" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </StackLayout>
+</ContentPage>

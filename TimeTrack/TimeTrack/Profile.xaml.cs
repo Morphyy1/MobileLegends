@@ -21,7 +21,7 @@ namespace TimeTrack
         {
             var back = new HomePage();
             NavigationPage.SetHasNavigationBar(back, false);
-            await Navigation.PushAsync(back, false);
+            await Navigation.PushAsync(back, true);
         }
     }
 }

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homePage.png"
+             x:Class="TimeTrack.AddHabits">
+    <StackLayout>
+        <Grid>
+            <StackLayout>
+                <Button x:Name="accountButton" Clicked="accountButton_Clicked" ImageSource="accountLogo.png" Margin="320, -10, 15, 0" HeightRequest="80" BackgroundColor="Transparent"/>
+            </StackLayout>
+            <Frame HeightRequest="900" Margin="0, 60, 0, -100" CornerRadius="30">
+                <StackLayout>
+                    <Button x:Name="backButton" Clicked="backButton_Clicked" ImageSource="back.png" Margin="-20,0,300,0" BackgroundColor="Transparent"/>
+                    <Button Text="Неделя" FontSize="20" Margin="60,-55, 190,0" BackgroundColor="Transparent" FontAttributes="Bold" TextColor="#82A8DF"/>
+                    <Button x:Name="monthButton" Clicked="monthButton_Clicked" Text="Месяц" FontSize="20" Margin="170,-54, 80,0" BackgroundColor="Transparent" FontAttributes="Bold" TextColor="Gray"/>
+                    <Button Text="Выбрать период" Margin="0,10,200,0" TextColor="#EEEEEE" FontAttributes="Bold" BackgroundColor="#82A8DF" CornerRadius="30"/>
+                    <BoxView HeightRequest="45"  BackgroundColor="#EEEEEE" Margin="200,-52,0,0" CornerRadius="30"/>
+                    <Label Text="01.04 - 07.04" Margin="217,-42,0,0" FontSize="20" FontAttributes="Bold" TextColor="#82A8DF"/>
+                    <ScrollView Margin="0,15" VerticalScrollBarVisibility="Never">
+                        <StackLayout Margin="0,0,0,0">
+                            <Frame Margin="0,15,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                                <StackLayout>
+                                    <Button Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
+                                    <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
+                                    <Label Text="1" Margin="15,-100,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                    <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                                <StackLayout>
+                                    <Button Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
+                                    <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
+                                    <Label Text="2" Margin="15,-100,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                    <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                                <StackLayout>
+                                    <Button Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
+                                    <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
+                                    <Label Text="3" Margin="15,-100,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                    <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                                <StackLayout>
+                                    <Button Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
+                                    <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
+                                    <Label Text="4" Margin="15,-100,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                    <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                                <StackLayout>
+                                    <Button Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
+                                    <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
+                                    <Label Text="5" Margin="15,-100,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                    <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                                <StackLayout>
+                                    <Button Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
+                                    <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
+                                    <Label Text="6" Margin="15,-100,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                    <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Margin="0,10,0,100" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                                <StackLayout>
+                                    <Button Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
+                                    <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
+                                    <Label Text="7" Margin="15,-100,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                    <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+
+                    </ScrollView>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </StackLayout>
+</ContentPage>

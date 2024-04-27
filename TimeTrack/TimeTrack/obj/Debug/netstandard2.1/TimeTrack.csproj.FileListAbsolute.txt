@@ -23,3 +23,17 @@ C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Xaml
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\TimeTrack.dll
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\refint\TimeTrack.dll
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\TimeTrack.pdb
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\AddHabithMonth.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\AddHabitsWeek.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\ChooseAMonth.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\February.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\April.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\August.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\December.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\July.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\June.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\March.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\May.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\November.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\October.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\September.xaml.g.cs

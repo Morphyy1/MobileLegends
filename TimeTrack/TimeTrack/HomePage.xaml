@@ -17,7 +17,9 @@
             <Frame BackgroundColor="White" HeightRequest="700" Margin="0, 260,0, -500" CornerRadius="50">
                 <Grid>
                     <Label Text="Сегодня" TextColor="#8EDFED" FontSize="30" FontAttributes="Bold" Margin="20, -5, 0, 0"/>
-                    <Label x:Name="IsEmpty" Text="Заполни скорее" FontSize="25" HorizontalOptions="Center" FontAttributes="Bold" Margin="0, 200"/>
+                    <Label x:Name="IsEmpty1" Text="Завтра" FontSize="25" HorizontalOptions="Start" FontAttributes="Bold" Margin="50, 200"/>
+                    <Label x:Name="IsEmpty2" Text="На неделе" FontSize="25" HorizontalOptions="Start" FontAttributes="Bold" Margin="50, 225"/>
+                    <Label x:Name="IsEmpty3" Text="Потом" FontSize="25" HorizontalOptions="Start" FontAttributes="Bold" Margin="50, 250"/>
                     <ScrollView Margin="0, 50, 0, 0" >
                         <StackLayout>
                             <!--<BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
@@ -38,7 +40,7 @@
                             <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>-->
                         </StackLayout>
                     </ScrollView>
-                    <Button HeightRequest="50" Margin="305, 450, -5, 500" Opacity="0.8" CornerRadius="50" BackgroundColor="#8EDFED" ImageSource="addLogo.png"/>
+                    <Button x:Name="addButton" Clicked="addButton_Clicked" HeightRequest="50" Margin="305, 450, -5, 500" Opacity="0.8" CornerRadius="50" BackgroundColor="#8EDFED" ImageSource="addLogo.png"/>
                 </Grid>
             </Frame>
         </Grid>

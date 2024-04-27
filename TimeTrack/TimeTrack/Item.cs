@@ -1,4 +1,4 @@
-﻿/*using SQLite;
+﻿using System.Data.SQLite;
 
 namespace TimeTracker
 {
@@ -8,4 +8,4 @@ namespace TimeTracker
         public string email { get; set; }
         public string password { get; set; }
     }
-}*/
+}
