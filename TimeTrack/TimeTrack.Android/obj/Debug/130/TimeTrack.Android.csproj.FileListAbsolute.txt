@@ -691,3 +691,7 @@ C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\android
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\android\assets\System.Security.pdb
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\android\assets\System.Security.Permissions.dll
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\android\assets\System.Security.Principal.Windows.dll
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\new1.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\new2.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\new3.png
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack.Android\obj\Debug\130\res\drawable\new4.png

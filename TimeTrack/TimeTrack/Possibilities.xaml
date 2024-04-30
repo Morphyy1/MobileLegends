@@ -3,18 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TimeTrack.Possibilities">
     <StackLayout>
-        <Frame BackgroundColor="#6A95E3" HeightRequest="550" CornerRadius="60" Margin="0, -80, 0 ,0">
-            <StackLayout>
-                <Label Text="Что умеет наше приложение?" TextColor="White" FontSize="35" FontAttributes="Bold" Margin="35, 250, 0, 0" />
-                <Image Source="pict1.png" Margin="-70, -140, -70, 0"/>
-            </StackLayout>
-        </Frame>
-        <FlexLayout Margin="0, 240, 0, 0">
-            <BoxView BackgroundColor="#6A95E3" Margin="148, 0, 5, 0" HeightRequest="20" WidthRequest="20" CornerRadius="30"/>
-            <BoxView BackgroundColor="Gray" Margin="0, 0, 5, 0" HeightRequest="20" WidthRequest="20" CornerRadius="30"/>
-            <BoxView BackgroundColor="Gray" Margin="0, 0, 5, 0" HeightRequest="20" WidthRequest="20" CornerRadius="30"/>
-            <BoxView BackgroundColor="Gray" HeightRequest="20" WidthRequest="20" CornerRadius="30"/>
-        </FlexLayout>
-        <Button x:Name="next" Clicked="next_Clicked" HeightRequest="70" Margin="300, -50, 10, 0" ImageSource="arrowBlue" BackgroundColor="Transparent"/>
+        <Grid>
+            <ScrollView>
+                <StackLayout Margin="0,0,0,0">
+                    <Image Source="New1" Aspect="Fill" Margin="0,0,0,0"/>
+                    <Label Text="Что умеет наше приложение" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-760, 0,0"/>
+                    <Image Source="New2" Aspect="Fill" Margin="0,650,0,0"/>
+                    <Label Text="Постановка" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-760,0,0"/>
+                    <Label Text="Задач" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-15,0,0"/>
+                    <Image Source="New3" Aspect="Fill" Margin="0,650,0,0"/>
+                    <Label Text="Система" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-760, 0,0"/>
+                    <Label Text="Достижений" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-15,0,0"/>
+                    <Image Source="New4" Aspect="Fill" Margin="0,650,0,0"/>
+                    <Label Text="Формирование" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-760, 0,0"/>
+                    <Label Text="Привычек" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-15,0,0"/>
+                    <BoxView Margin="0,310"/>
+                </StackLayout>
+            </ScrollView>
+            <Button x:Name="skipButton" Clicked="skipButton_Clicked" Text="Пропустить" Margin="250,10,0,740" BackgroundColor="Transparent" FontAttributes="Bold" TextColor="White"/>
+        </Grid>
     </StackLayout>
 </ContentPage>

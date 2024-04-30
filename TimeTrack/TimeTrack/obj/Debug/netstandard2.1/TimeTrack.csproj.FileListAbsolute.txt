@@ -11,8 +11,6 @@ C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Logi
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\MainPage.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Possibilities.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\PossibilitiesHabits.xaml.g.cs
-C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\PossibilitiesSystem.xaml.g.cs
-C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\PossibilitiesTask.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Profile.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\RegisterPage.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\TimeTrack.AssemblyInfoInputs.cache

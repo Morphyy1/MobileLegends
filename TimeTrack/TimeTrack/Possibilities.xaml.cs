@@ -17,11 +17,11 @@ namespace TimeTrack
             InitializeComponent();
         }
 
-        private async void next_Clicked(object sender, EventArgs e)
+        private async void skipButton_Clicked(object sender, EventArgs e)
         {
-            var next = new PossibilitiesTask();
-            NavigationPage.SetHasNavigationBar(next, false);
-            await Navigation.PushAsync(next, false);
+            var skip = new LoginPage();
+            NavigationPage.SetHasNavigationBar(skip, false);
+            await Navigation.PushAsync(skip, true);
         }
     }
 }
