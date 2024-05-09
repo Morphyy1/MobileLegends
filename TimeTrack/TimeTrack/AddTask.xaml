@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homePage.png"
+             x:Class="TimeTrack.AddTask">
+    <StackLayout>
+        <StackLayout>
+            <Button x:Name="accountButton" Clicked="accountButton_Clicked" ImageSource="accountLogo.png" Margin="320, -10, 15, 0" HeightRequest="80" BackgroundColor="Transparent"/>
+        </StackLayout>
+        <Frame HeightRequest="900" Margin="0, -15, 0, -100" CornerRadius="30">
+            <StackLayout Margin="0,10,0,0">
+                <Label Text="Добавить задачу" HorizontalTextAlignment="Center" TextColor="Gray" FontSize="22" FontAttributes="Bold"/>
+                <Frame BorderColor="#82A8DF" CornerRadius="40" HeightRequest="25" Margin="0,55,0,0">
+                    <StackLayout Margin="0,-15,0,0">
+                        <Entry Placeholder ="Название задачи.." TextColor="Gray" MaxLength="25" FontSize="20" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="#82A8DF" CornerRadius="40" HeightRequest="305" Margin="0,20,0,0">
+                    <StackLayout>
+                        <Entry Placeholder ="Описание.." TextColor="Gray" FontSize="20" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Frame>
+                <Grid>
+                    <Button x:Name="saveButton" Clicked="saveButton_Clicked" BorderColor="#82A8DF" BorderWidth="2" CornerRadius="20" HeightRequest="60" Margin="200,55,0,0" BackgroundColor="#82A8DF" Text="Сохранить" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                    <Button x:Name="cancelButton" Clicked="cancelButton_Clicked" BorderColor="#82A8DF" BorderWidth="2" CornerRadius="20" HeightRequest="60" Margin="0,55,200,0" BackgroundColor="White" Text="Отмена" FontSize="18" FontAttributes="Bold" TextColor="Gray"/>
+                </Grid>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

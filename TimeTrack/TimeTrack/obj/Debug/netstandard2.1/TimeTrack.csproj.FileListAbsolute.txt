@@ -10,7 +10,6 @@ C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Home
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\LoginPage.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\MainPage.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Possibilities.xaml.g.cs
-C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\PossibilitiesHabits.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Profile.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\RegisterPage.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\TimeTrack.AssemblyInfoInputs.cache
@@ -35,3 +34,4 @@ C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Mont
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\November.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\October.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\September.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\AddTask.xaml.g.cs
