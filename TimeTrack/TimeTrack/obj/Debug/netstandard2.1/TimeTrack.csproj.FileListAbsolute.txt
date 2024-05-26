@@ -35,3 +35,4 @@ C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Mont
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\October.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\Month\September.xaml.g.cs
 C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\AddTask.xaml.g.cs
+C:\MobileApplication\TimeTrack\TimeTrack\TimeTrack\obj\Debug\netstandard2.1\TaskInfo.xaml.g.cs

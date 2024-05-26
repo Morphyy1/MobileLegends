@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\MobileApplication\\TimeTrack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\addtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\addtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\addtask.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\addtask.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\addhabithmonth.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\addhabithmonth.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
@@ -11,48 +23,16 @@
       "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\addhabithmonth.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\addhabitsweek.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\addhabitsweek.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\addtask.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\addtask.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\addtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\addtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\addhabitsweek.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\addhabitsweek.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\choicehabits.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\choicehabits.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\chooseamonth.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\chooseamonth.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\possibilities.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\possibilities.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\possibilities.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\possibilities.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|c:\\mobileapplication\\timetrack\\timetrack\\timetrack\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{F5821A9B-95F2-4AC4-B57F-1418A784D621}|TimeTrack\\TimeTrack\\TimeTrack.csproj|solutionrelative:timetrack\\timetrack\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,160 +54,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddHabithMonth.xaml",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabithMonth.xaml",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddHabithMonth.xaml",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabithMonth.xaml",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\AddHabithMonth.xaml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAACEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-26T05:46:20.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddHabithMonth.xaml.cs",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabithMonth.xaml.cs",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddHabithMonth.xaml.cs",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabithMonth.xaml.cs",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\AddHabithMonth.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T13:19:13.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddTask.xaml.cs",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddTask.xaml.cs",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddTask.xaml.cs",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddTask.xaml.cs",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\AddTask.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAqwBkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:53:50.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddTask.xaml",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddTask.xaml",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddTask.xaml",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddTask.xaml",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\AddTask.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-07T13:47:08.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddHabitsWeek.xaml",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabitsWeek.xaml",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddHabitsWeek.xaml",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabitsWeek.xaml",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\AddHabitsWeek.xaml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAEQAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-07T13:50:12.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChoiceHabits.xaml",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\ChoiceHabits.xaml",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\ChoiceHabits.xaml",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\ChoiceHabits.xaml",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\ChoiceHabits.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-30T13:17:43.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\HomePage.xaml.cs",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\HomePage.xaml.cs",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\HomePage.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T13:16:22.025Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AddHabitsWeek.xaml.cs",
               "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabitsWeek.xaml.cs",
               "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddHabitsWeek.xaml.cs",
               "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabitsWeek.xaml.cs",
               "RelativeToolTip": "TimeTrack\\TimeTrack\\AddHabitsWeek.xaml.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAiwFYAAAAfAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwC0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T13:19:16.537Z"
+              "WhenOpened": "2024-05-26T08:59:43.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "AddHabithMonth.xaml.cs",
+              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabithMonth.xaml.cs",
+              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddHabithMonth.xaml.cs",
+              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabithMonth.xaml.cs",
+              "RelativeToolTip": "TimeTrack\\TimeTrack\\AddHabithMonth.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwDYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:58:25.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddHabithMonth.xaml",
+              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabithMonth.xaml",
+              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddHabithMonth.xaml",
+              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddHabithMonth.xaml",
+              "RelativeToolTip": "TimeTrack\\TimeTrack\\AddHabithMonth.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-26T08:58:22.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\Tasks.cs",
+              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\Tasks.cs",
+              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\Tasks.cs",
+              "RelativeToolTip": "TimeTrack\\TimeTrack\\Tasks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:46:31.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddTask.xaml.cs",
+              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddTask.xaml.cs",
+              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddTask.xaml.cs",
+              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddTask.xaml.cs",
+              "RelativeToolTip": "TimeTrack\\TimeTrack\\AddTask.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwD8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T13:31:19.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddTask.xaml",
+              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddTask.xaml",
+              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\AddTask.xaml",
+              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\AddTask.xaml",
+              "RelativeToolTip": "TimeTrack\\TimeTrack\\AddTask.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-24T07:31:01.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\HomePage.xaml.cs",
+              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\HomePage.xaml.cs",
+              "RelativeToolTip": "TimeTrack\\TimeTrack\\HomePage.xaml.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowFsAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:18:49.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\HomePage.xaml",
               "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\HomePage.xaml",
               "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\HomePage.xaml",
               "RelativeToolTip": "TimeTrack\\TimeTrack\\HomePage.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACoAAABpAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-30T13:13:35.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Possibilities.xaml",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\Possibilities.xaml",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\Possibilities.xaml",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\Possibilities.xaml",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\Possibilities.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-30T13:14:10.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\MainPage.xaml",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\MainPage.xaml",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\MainPage.xaml",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-30T13:13:41.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Possibilities.xaml.cs",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\Possibilities.xaml.cs",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\Possibilities.xaml.cs",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\Possibilities.xaml.cs",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\Possibilities.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:35:27.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChooseAMonth.xaml",
-              "DocumentMoniker": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\ChooseAMonth.xaml",
-              "RelativeDocumentMoniker": "TimeTrack\\TimeTrack\\ChooseAMonth.xaml",
-              "ToolTip": "C:\\MobileApplication\\TimeTrack\\TimeTrack\\TimeTrack\\ChooseAMonth.xaml",
-              "RelativeToolTip": "TimeTrack\\TimeTrack\\ChooseAMonth.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-26T15:53:45.529Z"
+              "WhenOpened": "2024-05-23T07:26:19.855Z",
+              "EditorCaption": ""
             }
           ]
         }

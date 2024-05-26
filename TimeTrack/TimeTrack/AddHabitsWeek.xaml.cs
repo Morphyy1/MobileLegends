@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,81 +8,104 @@ namespace TimeTrack
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddHabits : ContentPage
     {
-        public Frame first;
-        public Frame second;
-        public Frame third;
-        public Frame fourth;
-        public Frame fifth;
-        public Frame sixth;
-        public Frame seventh;
+        static readonly Color defaultColor = Color.FromRgb(235, 235, 235);
+        public static Color first = defaultColor;
+        public static Color second = defaultColor;
+        public static Color third = defaultColor;
+        public static Color fourth = defaultColor;
+        public static Color fifth = defaultColor;
+        public static Color sixth = defaultColor;
+        public static Color seventh = defaultColor;
 
 
         public AddHabits()
         {
             InitializeComponent();
-            first = firstDate;
-            second = secondDate;
-            third = thirdDate;
-            fourth = fourthDate;
-            fifth = fifthDate; 
-            sixth = sixthDate;
-            seventh = seventhDate;
+            firstDate.BackgroundColor = first;
+            secondDate.BackgroundColor = second;
+            thirdDate.BackgroundColor = third;
+            fourthDate.BackgroundColor = fourth;
+            fifthDate.BackgroundColor = fifth;
+            sixthDate.BackgroundColor = sixth;
+            seventhDate.BackgroundColor = seventh;
         }
 
         private async void addTask1_Clicked(object sender, EventArgs e)
         {
-            var add = new AddTask();
-            add.FateNumber = 1;
-            NavigationPage.SetHasNavigationBar(add, false);
-            await Navigation.PushAsync(add, true);
+            if (firstDate.BackgroundColor == defaultColor)
+            {
+                var add = new AddTask();
+                add.FateNumber = 1;
+                NavigationPage.SetHasNavigationBar(add, false);
+                await Navigation.PushAsync(add, true);
+            }
         }
 
         private async void addTask2_Clicked(object sender, EventArgs e)
         {
-            var add = new AddTask();
-            add.FateNumber = 2;
-            NavigationPage.SetHasNavigationBar(add, false);
-            await Navigation.PushAsync(add, true);
+            if (secondDate.BackgroundColor == defaultColor)
+            {
+                var add = new AddTask();
+                add.FateNumber = 2;
+                NavigationPage.SetHasNavigationBar(add, false);
+                await Navigation.PushAsync(add, true);
+
+            }
         }
 
         private async void addTask3_Clicked(object sender, EventArgs e)
         {
-            var add = new AddTask();
-            add.FateNumber = 3;
-            NavigationPage.SetHasNavigationBar(add, false);
-            await Navigation.PushAsync(add, true);
+            if (thirdDate.BackgroundColor == defaultColor)
+            {
+                var add = new AddTask();
+                add.FateNumber = 3;
+                NavigationPage.SetHasNavigationBar(add, false);
+                await Navigation.PushAsync(add, true);
+            } 
         }
 
         private async void addTask4_Clicked(object sender, EventArgs e)
         {
-            var add = new AddTask();
-            add.FateNumber = 4;
-            NavigationPage.SetHasNavigationBar(add, false);
-            await Navigation.PushAsync(add, true);
+            if (fourthDate.BackgroundColor == defaultColor)
+            {
+                var add = new AddTask();
+                add.FateNumber = 4;
+                NavigationPage.SetHasNavigationBar(add, false);
+                await Navigation.PushAsync(add, true);
+            }
         }
 
         private async void addTask5_Clicked(object sender, EventArgs e)
         {
-            var add = new AddTask();
-            add.FateNumber = 5;
-            NavigationPage.SetHasNavigationBar(add, false);
-            await Navigation.PushAsync(add, true);
+            if (fifthDate.BackgroundColor == defaultColor)
+            {
+                var add = new AddTask();
+                add.FateNumber = 5;
+                NavigationPage.SetHasNavigationBar(add, false);
+                await Navigation.PushAsync(add, true);
+            }
         }
 
         private async void addTask6_Clicked(object sender, EventArgs e)
         {
-            var add = new AddTask();
-            add.FateNumber = 6;
-            NavigationPage.SetHasNavigationBar(add, false);
-            await Navigation.PushAsync(add, true);
+            if (sixthDate.BackgroundColor == defaultColor)
+            {
+                var add = new AddTask();
+                add.FateNumber = 6;
+                NavigationPage.SetHasNavigationBar(add, false);
+                await Navigation.PushAsync(add, true);
+            }
         }
 
         private async void addTask7_Clicked(object sender, EventArgs e)
         {
-            var add = new AddTask();
-            add.FateNumber = 7;
-            NavigationPage.SetHasNavigationBar(add, false);
-            await Navigation.PushAsync(add, true);
+            if (seventhDate.BackgroundColor == defaultColor)
+            {
+                var add = new AddTask();
+                add.FateNumber = 7;
+                NavigationPage.SetHasNavigationBar(add, false);
+                await Navigation.PushAsync(add, true);
+            }
         }
 
         private async void monthButton_Clicked(object sender, EventArgs e)

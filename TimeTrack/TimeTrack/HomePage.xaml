@@ -16,31 +16,76 @@
             </Frame>
             <Frame BackgroundColor="White" HeightRequest="700" Margin="0, 260,0, -500" CornerRadius="50">
                 <Grid>
-                    <Label Text="Сегодня" TextColor="#8EDFED" FontSize="30" FontAttributes="Bold" Margin="20, -5, 0, 0"/>
-                    <Label x:Name="IsEmpty1" Text="Завтра" FontSize="25" HorizontalOptions="Start" FontAttributes="Bold" Margin="50, 200"/>
+                    <Label Text="Задачи" TextColor="#8EDFED" FontSize="30" FontAttributes="Bold" Margin="20, -5, 0, 0"/>
+                    <!--<Label x:Name="IsEmpty1" Text="Завтра" FontSize="25" HorizontalOptions="Start" FontAttributes="Bold" Margin="50, 200"/>
                     <Label x:Name="IsEmpty2" Text="На неделе" FontSize="25" HorizontalOptions="Start" FontAttributes="Bold" Margin="50, 225"/>
-                    <Label x:Name="IsEmpty3" Text="Потом" FontSize="25" HorizontalOptions="Start" FontAttributes="Bold" Margin="50, 250"/>
-                    <ScrollView Margin="0, 50, 0, 0" >
+                    <Label x:Name="IsEmpty3" Text="Потом" FontSize="25" HorizontalOptions="Start" FontAttributes="Bold" Margin="50, 250"/>-->
+                    <ScrollView Margin="0, 50, 0, 500" >
                         <StackLayout>
-                            <!--<BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>
-                            <BoxView BackgroundColor="Gray" HeightRequest="80" CornerRadius="50"/>-->
+                            <Frame x:Name="FirstTask" BorderColor="Transparent" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="FirstTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="FirstButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame x:Name="SecondTask" BorderColor="Transparent" Margin="0,10,0,0" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="SecondTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="SecondButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame x:Name="ThirdTask" BorderColor="Transparent" Margin="0,10,0,0" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="ThirdTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="ThirdButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame x:Name="FourthTask" BorderColor="Transparent" Margin="0,10,0,0" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="FourthTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="FourthButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame x:Name="FifthTask" BorderColor="Transparent" Margin="0,10,0,0" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="FifthTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="FifthButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame x:Name="SixthTask" BorderColor="Transparent" Margin="0,10,0,0" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="SixthTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="SixthButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame x:Name="SeventhTask" BorderColor="Transparent" Margin="0,10,0,0" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="SeventhTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="SeventhButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame x:Name="EighthTask" BorderColor="Transparent" Margin="0,10,0,0" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="EighthTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="EighthButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame x:Name="NinethTask" BorderColor="Transparent" Margin="0,10,0,0" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="NinethTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="NinethButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame x:Name="TenthTask" BorderColor="Transparent" Margin="0,10,0,0" Padding="25, 25, 0 ,25" CornerRadius="20">
+                                <StackLayout>
+                                    <Label x:Name="TenthTaskLabe" Text="" FontSize="25" Margin="0,5,0,0" TextColor="#B5B5B5" FontAttributes="Bold"/>
+                                    <Button x:Name="TenthButton" Clicked="Info" Margin="0,-60,0,-20" HeightRequest="80" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+
                         </StackLayout>
                     </ScrollView>
-                    <Button x:Name="addButton" Clicked="addButton_Clicked" HeightRequest="50" Margin="305, 450, -5, 500" Opacity="0.8" CornerRadius="50" BackgroundColor="#8EDFED" ImageSource="addLogo.png"/>
+                    <Button x:Name="addButton" Clicked="addButton_Clicked" HeightRequest="50" Margin="305, 450, -5, 500" CornerRadius="50" BackgroundColor="#8EDFED" ImageSource="addLogo.png"/>
                 </Grid>
             </Frame>
         </Grid>

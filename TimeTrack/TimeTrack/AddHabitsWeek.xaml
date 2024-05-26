@@ -18,7 +18,7 @@
                     <Label Text="01.04 - 07.04" Margin="217,-42,0,0" FontSize="20" FontAttributes="Bold" TextColor="#82A8DF"/>
                     <ScrollView Margin="0,15" VerticalScrollBarVisibility="Never">
                         <StackLayout Margin="0,0,0,0">
-                            <Frame x:Name="firstDate" Margin="0,15,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                            <Frame x:Name="firstDate" Margin="0,15,0,10" HeightRequest="55" CornerRadius="30">
                                 <StackLayout>
                                     <Button Clicked="addTask1_Clicked" Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
                                     <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
@@ -26,7 +26,7 @@
                                     <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
                                 </StackLayout>
                             </Frame>
-                            <Frame x:Name="secondDate" Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                            <Frame x:Name="secondDate" Margin="0,10,0,10" HeightRequest="55" CornerRadius="30">
                                 <StackLayout>
                                     <Button Clicked="addTask2_Clicked" Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
                                     <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
@@ -34,7 +34,7 @@
                                     <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
                                 </StackLayout>
                             </Frame>
-                            <Frame x:Name="thirdDate" Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                            <Frame x:Name="thirdDate" Margin="0,10,0,10" HeightRequest="55" CornerRadius="30">
                                 <StackLayout>
                                     <Button Clicked="addTask3_Clicked" Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
                                     <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
@@ -42,7 +42,7 @@
                                     <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
                                 </StackLayout>
                             </Frame>
-                            <Frame x:Name="fourthDate" Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                            <Frame x:Name="fourthDate" Margin="0,10,0,10" HeightRequest="55" CornerRadius="30">
                                 <StackLayout>
                                     <Button Clicked="addTask4_Clicked" Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
                                     <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
@@ -50,7 +50,7 @@
                                     <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
                                 </StackLayout>
                             </Frame>
-                            <Frame x:Name="fifthDate" Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                            <Frame x:Name="fifthDate" Margin="0,10,0,10" HeightRequest="55" CornerRadius="30">
                                 <StackLayout>
                                     <Button Clicked="addTask5_Clicked" Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
                                     <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
@@ -58,7 +58,7 @@
                                     <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
                                 </StackLayout>
                             </Frame>
-                            <Frame x:Name="sixthDate" Margin="0,10,0,10" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                            <Frame x:Name="sixthDate" Margin="0,10,0,10" HeightRequest="55"  CornerRadius="30">
                                 <StackLayout>
                                     <Button Clicked="addTask6_Clicked" Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
                                     <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
@@ -66,7 +66,7 @@
                                     <Label Text="апр" Margin="5,-20,0,0" FontSize="35" TextColor="#9B6C7A" FontAttributes="Bold"/>
                                 </StackLayout>
                             </Frame>
-                            <Frame x:Name="seventhDate" Margin="0,10,0,100" HeightRequest="55" BackgroundColor="#EBEBEB" CornerRadius="30">
+                            <Frame x:Name="seventhDate" Margin="0,10,0,100" HeightRequest="55"  CornerRadius="30">
                                 <StackLayout>
                                     <Button Clicked="addTask7_Clicked" Margin="90,-23,-20,0" HeightRequest="100" BackgroundColor="Transparent"/>
                                     <BoxView HeightRequest="110" CornerRadius="30" BackgroundColor="#FEB4CB" Margin="-30,-110,225,0"/>
