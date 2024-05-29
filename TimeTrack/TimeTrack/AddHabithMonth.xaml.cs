@@ -12,16 +12,11 @@ namespace TimeTrack
     [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class AddHabithMonth : ContentPage
 	{
-        private static List<Button> list;
-        private static int IterationCount;
-
-
         public AddHabithMonth ()
 		{
 			InitializeComponent ();
-            if (IterationCount != 0)
-                buttons.BackgroundColor = Color.Black;
 		}
+
         private async void backButton_Clicked(object sender, EventArgs e)
         {
             var back = new HomePage();

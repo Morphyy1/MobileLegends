@@ -1,10 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,13 +11,19 @@ namespace TimeTrack
     {
         public static int IterationsCount;
         public static List<Tasks> TaskInformations;
+        public int CompleteCount;
 
         public HomePage()
         {
             InitializeComponent();
             if (IterationsCount == 0)
-            {
-                TaskInformations = new List<Tasks>
+                SetTasksList();
+            SetModificationFrame();
+        }
+
+        private void SetTasksList()
+        {
+            TaskInformations = new List<Tasks>
                 {
                     new Tasks(),
                     new Tasks{Task = FirstTask, TaskName = FirstTaskLabe, Description = new Label(), Numeration = 1},
@@ -36,47 +37,50 @@ namespace TimeTrack
                     new Tasks{Task = NinethTask, TaskName = NinethTaskLabe, Description = new Label(), Numeration = 9},
                     new Tasks{Task = TenthTask, TaskName = TenthTaskLabe, Description = new Label(), Numeration = 10},
                 };
-            }
-            SetModificationFrame();
         }
 
         public HomePage(int numeration)
         {
             InitializeComponent();
+            SetTasksFlag(numeration);
+            SetModificationFrame();
+        }
+
+        private void SetTasksFlag(int numeration)
+        {
             switch (numeration)
             {
-                case (1):
+                case 1:
                     TaskInformations[1].flag = true;
                     break;
-                case (2):
+                case 2:
                     TaskInformations[2].flag = true;
                     break;
-                case (3):
+                case 3:
                     TaskInformations[3].flag = true;
                     break;
-                case (4):
+                case 4:
                     TaskInformations[4].flag = true;
                     break;
-                case (5):
+                case 5:
                     TaskInformations[5].flag = true;
                     break;
-                case (6):
+                case 6:
                     TaskInformations[6].flag = true;
                     break;
-                case (7):
+                case 7:
                     TaskInformations[7].flag = true;
                     break;
-                case (8):
+                case 8:
                     TaskInformations[8].flag = true;
                     break;
-                case (9):
+                case 9:
                     TaskInformations[9].flag = true;
                     break;
-                case (10):
+                case 10:
                     TaskInformations[10].flag = true;
                     break;
             }
-            SetModificationFrame();
         }
 
         private void SetModificationFrame()

@@ -33,46 +33,46 @@
                         <Label Text="вс" FontSize="20" TextColor="#9B6C7A" FontAttributes="Bold" Margin="23, 7,0,0"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Margin="-2,0">
-                        <Button HeightRequest="45" Text="1" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="2" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="3" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="4" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="5" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="6" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="7" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="1" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="2" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="3" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="4" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="5" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="6" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="7" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Margin="-2,0">
-                        <Button HeightRequest="45" Text="8" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="9" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="10" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="11" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="12" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="13" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="14" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="8" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="9" WidthRequest="45" TextColor="#A7A9AD" FontSize="20" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="10" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="11" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="12" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="13" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="14" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Margin="-2,0">
-                        <Button HeightRequest="45" Text="15" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="16" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="17" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="18" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="19" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="20" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="21" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="15" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="16" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="17" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="18" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="19" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="20" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="21" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
 
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Margin="-2,0">
-                        <Button HeightRequest="45" Text="22" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="23" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="24" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="25" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="26" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="27" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="28" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="22" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="23" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="24" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="25" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="26" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="27" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="28" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Margin="-2,0">
-                        <Button HeightRequest="45" Text="29" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="30" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
-                        <Button HeightRequest="45" Text="31" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="29" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="30" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
+                        <Button Clicked="AddTaskClicked" HeightRequest="45" Text="31" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
                         <Button HeightRequest="45" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
                         <Button HeightRequest="45" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>
                         <Button HeightRequest="45" WidthRequest="45" TextColor="#A7A9AD" FontSize="18" FontAttributes="Bold" BackgroundColor="#EBEBEB" Margin="0,0,0,0" CornerRadius="15"/>

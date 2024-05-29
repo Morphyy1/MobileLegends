@@ -41,5 +41,12 @@ namespace TimeTrack.Month
             NavigationPage.SetHasNavigationBar(months, false);
             await Navigation.PushAsync(months, false);
         }
+
+        private async void AddTaskClicked(object sender, EventArgs e)
+        {
+            var add = new AddTask();
+            NavigationPage.SetHasNavigationBar(add, false);
+            await Navigation.PushAsync(add, true);
+        }
     }
 }

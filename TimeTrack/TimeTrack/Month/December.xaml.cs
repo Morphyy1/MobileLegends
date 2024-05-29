@@ -30,17 +30,26 @@ namespace TimeTrack.Month
             NavigationPage.SetHasNavigationBar(back, false);
             await Navigation.PushAsync(back, true);
         }
+
         private async void weekButton_Clicked(object sender, EventArgs e)
         {
             var week = new AddHabits();
             NavigationPage.SetHasNavigationBar(week, false);
             await Navigation.PushAsync(week, false);
         }
+
         private async void ChooseAMonth_Clicked(object sender, EventArgs e)
         {
             var months = new ChooseAMonth();
             NavigationPage.SetHasNavigationBar(months, false);
             await Navigation.PushAsync(months, false);
+        }
+
+        private async void AddTaskClicked(object sender, EventArgs e)
+        {
+            var add = new AddTask();
+            NavigationPage.SetHasNavigationBar(add, false);
+            await Navigation.PushAsync(add, true);
         }
     }
 }

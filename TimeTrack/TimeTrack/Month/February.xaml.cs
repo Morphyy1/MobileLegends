@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -43,6 +38,13 @@ namespace TimeTrack.Month
             var months = new ChooseAMonth();
             NavigationPage.SetHasNavigationBar(months, false);
             await Navigation.PushAsync(months, false);
+        }
+
+        private async void AddTaskClicked(object sender, EventArgs e)
+        {
+            var add = new AddTask();
+            NavigationPage.SetHasNavigationBar(add, false);
+            await Navigation.PushAsync(add, true);
         }
     }
 }

@@ -9,6 +9,8 @@ namespace TimeTrack
     {
         public int FateNumber;
         private Color color;
+
+
         public AddTask()
         {
             InitializeComponent();
@@ -23,7 +25,10 @@ namespace TimeTrack
 
         private async void saveButton_Clicked(object sender, EventArgs e)
         {
-            if ((FirstChoice.BackgroundColor != Color.Transparent ||
+            if (HomePage.IterationsCount == 10)
+                await DisplayAlert("", "Сначала нужно закончить предыдущие задачи", "Продолжить");
+
+            else if ((FirstChoice.BackgroundColor != Color.Transparent ||
                 SecondChoice.BackgroundColor != Color.Transparent ||
                 ThirdChoice.BackgroundColor != Color.Transparent || 
                 FourthChoice.BackgroundColor != Color.Transparent) &&
@@ -54,8 +59,6 @@ namespace TimeTrack
                         AddHabits.seventh = color;
                         break;
                 }
-                /*HomePage.TaskName.Text = TaskName.Text;
-                HomePage.TaskColor = color;*/
 
                 HomePage.IterationsCount++;
                 HomePage.TaskInformations[HomePage.IterationsCount].TaskName.Text = TaskName.Text;
